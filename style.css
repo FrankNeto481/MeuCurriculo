@@ -1,0 +1,178 @@
+html{
+    scroll-behavior: smooth;
+}
+
+
+@font-face{
+    font-family:Intro;
+    src:url(/src/font/Intro/clearlygothic-bold.ttf)}
+
+@font-face{
+    font-family:Intro2;
+    src:url(/src/font/Intro/clearly-gothic-light.ttf)}
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.a{
+    color: #fae9eb;
+    text-decoration: none;
+    letter-spacing: 0.5px;
+    padding-right: 20px;
+}
+.a:hover{
+    opacity: 0.9;
+}
+
+.logo{
+    font-size: 25px;
+    text-transform: uppercase;
+    font-family: CompolLogo1;
+}
+
+.nav-list{
+    list-style: none;
+    flex-direction: row;
+    display: flex;
+}
+
+nav{
+
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: system-ui, 
+    -apple-system, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background: #982531;
+    height: 6vh;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.05);
+    position: relative;
+    border-bottom: 1px solid #474661  0.5;
+}
+
+
+h1{
+    font-size: 85px;
+    color: #982531;
+    font-family: Intro;
+}
+h2{
+    font-size: 80px;
+    color: #982531;
+    font-family: Intro;
+}
+
+p{
+    font-size: 20px;
+    color: #982531;
+    font-family:Intro2;
+}
+
+h3{
+    font-size: 25px;
+    color: #982531;
+    font-family: system-ui, 
+    -apple-system, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+h4{
+    font-size: 20px;
+    color: #982531;
+    font-family: system-ui, 
+    -apple-system, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.git{
+    color: #982531;
+    text-decoration: none;
+
+
+}
+
+main{
+    height: 60vh;
+    background-color: #fae9eb;
+    border-bottom: 2vh solid #982531;
+    position: relative;
+}
+
+.Intro{
+    height: 220px;
+    position: absolute;
+    width: 520px;
+    align-items: center;
+bottom: 0;
+top: 0;
+right: 0;
+left: -50%;
+margin: auto;
+}
+
+body{
+    height: 2000px;
+    background-color: #fef9fa;
+}
+
+.sobre{
+        display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.sect{
+    border: 1vh solid #982531;
+    background-color: #fae9eb;
+    width: 1000px;
+    height: 500px;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+}
+
+.sect2{
+    border: 1vh solid #982531;
+    background-color: #fae9eb;
+    width: 700px;
+    height: 300px;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+}
+
+.box{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: justify;
+}
+
+.sobremim{
+    flex-direction: column;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+#foto{
+    border: 0.8vh solid #982531;
+    margin-left: 2%;
+    height: 400px;
+}
+
+.experiencia{
+    color: #fef9fa;
+    background-color:#982531 ;
+}
+#Experiencia{
+    color: #fef9fa;
+}
+
+#cv{
+    height: 150px;
+    opacity: 0.5;
+}
+
+#desc{
+    font-size: 17px;
+}
