@@ -87,8 +87,6 @@ h4{
 .git{
     color: #982531;
     text-decoration: none;
-
-
 }
 
 main{
@@ -101,7 +99,7 @@ main{
 .Intro{
     height: 220px;
     position: absolute;
-    width: 520px;
+    width: 600px;
     align-items: center;
 bottom: 0;
 top: 0;
